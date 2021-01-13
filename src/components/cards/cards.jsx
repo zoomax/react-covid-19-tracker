@@ -82,7 +82,7 @@ export default function Cards(props) {
             </Typography>
             <Typography variant="h5" >
               <CountUp
-                start={01}
+                start={1}
                 end={deaths.value}
                 duration={1.5}
                 separator={","}
